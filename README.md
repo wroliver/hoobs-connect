@@ -15,43 +15,6 @@ HOOBS combine hardware and operating system, with server service and user interf
 
 We’re a small team from around the world who are passionate about making the home that you live in a better home – a smart home. That is why we came up with the idea of developing HOOBS which is an out of the box ready to run system for Homebridge. We want to create a solution that even beginners could understand, comfortable with and get a lot of use out of. Our motivation is to serve the homebridge community with a tool that we believe will make their lives easier and we hope our goal will be reached.
 
-## Documentation
-* [**Welcome**](https://github.com/hoobs-org/HOOBS/wiki)  
-* [**Community**](https://github.com/hoobs-org/HOOBS/wiki/1.0-Community)
-* [**News**](https://github.com/hoobs-org/HOOBS/wiki/1.1-News)  
-* [**Getting Started**](https://github.com/hoobs-org/HOOBS/wiki/2.0-Getting-Started)
-  * [**HOOBS Box**](https://github.com/hoobs-org/HOOBS/wiki/2.1-HOOBS-Box)
-  * [**HOOBS SD Card**](https://github.com/hoobs-org/HOOBS/wiki/2.2-HOOBS-SD-Card)
-  * [**Upgrading HOOBS**](https://github.com/hoobs-org/HOOBS/wiki/2.3-Upgrading-HOOBS)
-  * [**Upgrading Manually**](https://github.com/hoobs-org/HOOBS/wiki/2.4-Upgrading-Manually)
-  * [**Installing HOOBS**](https://github.com/hoobs-org/HOOBS/wiki/2.5-Installing-from-Scratch)
-  * [**Remote Access**](https://github.com/hoobs-org/HOOBS/wiki/2.7-Remote-Access)
-* [**User Interface**](https://github.com/hoobs-org/HOOBS/wiki/3.0-User-Interface)
-  * [**Administrator Account**](https://github.com/hoobs-org/HOOBS/wiki/3.1-Administrator-Account)
-  * [**Status Dashboard**](https://github.com/hoobs-org/HOOBS/wiki/3.2-Status-Dashboard)
-  * [**Accessories**](https://github.com/hoobs-org/HOOBS/wiki/3.3-Accessories)
-  * [**Room Layout**](https://github.com/hoobs-org/HOOBS/wiki/3.4-Room-Layout)
-  * [**Log**](https://github.com/hoobs-org/HOOBS/wiki/3.5-Log)
-  * [**System**](https://github.com/hoobs-org/HOOBS/wiki/3.6-System)
-  * [**Plugins**](https://github.com/hoobs-org/HOOBS/wiki/3.7-Plugins)
-  * [**Configuration**](https://github.com/hoobs-org/HOOBS/wiki/3.8-Configuration)
-  * [**User Accounts**](https://github.com/hoobs-org/HOOBS/wiki/3.9-User-Accounts)
-* [**Plugins**](https://github.com/hoobs-org/HOOBS/wiki/4.0-Plugins)
-* [**Hardware**](https://github.com/hoobs-org/HOOBS/wiki/5.0-Hardware)
-  * [**Certified Hardware**](https://github.com/hoobs-org/HOOBS/wiki/5.1-Certified-Hardware)
-  * [**Certified Accessories**](https://github.com/hoobs-org/HOOBS/wiki/5.2-Certified-Accessories)
-* [**Developers**](https://github.com/hoobs-org/HOOBS/wiki/6.0-Developers)
-  * [**Command Line Interface**](https://github.com/hoobs-org/HOOBS/wiki/6.1-Command-Line-Interface)
-  * [**Architecture**](https://github.com/hoobs-org/HOOBS/wiki/6.2-Architecture)
-  * [**API Reference**](https://github.com/hoobs-org/HOOBS/wiki/6.3-API-Reference)
-  * [**Developing Plugins**](https://github.com/hoobs-org/HOOBS/wiki/6.4-Developing-Plugins)
-  * [**Interface Plugins**](https://github.com/hoobs-org/HOOBS/wiki/6.5-Interface-Plugins)
-* [**Legal**](https://github.com/hoobs-org/HOOBS/wiki/7.0-Legal)
-  * [**Terms & Conditions**](https://github.com/hoobs-org/HOOBS/wiki/7.1-Terms-and-Conditions)
-  * [**Shipping & Taxes**](https://github.com/hoobs-org/HOOBS/wiki/7.2-Shipping-and-Taxes)
-  * [**Warranty**](https://github.com/hoobs-org/HOOBS/wiki/7.3-Warranty)
-* [**Credits**](https://github.com/hoobs-org/HOOBS/wiki/8.0-Credits)
-
 ## Legal
 HOOBS.org is a department of two4you business solution gmbh
 
