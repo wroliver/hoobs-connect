@@ -16,6 +16,16 @@ HOOBS combine hardware and operating system, with server service and user interf
 We’re a small team from around the world who are passionate about making the home that you live in a better home – a smart home. That is why we came up with the idea of developing HOOBS which is an out of the box ready to run system for Homebridge. We want to create a solution that even beginners could understand, comfortable with and get a lot of use out of. Our motivation is to serve the homebridge community with a tool that we believe will make their lives easier and we hope our goal will be reached.
 
 ## Legal
-HOOBS.org is a department of two4you business solution gmbh
+HOOBS™ is Located at:
+HOOBS Inc. CP 3211 L’Assomption, QC J5W 4M9, Canada
 
-c/o two4you business solution gmbh | Rhypark 8 | CH-5080 Laufenburg | Switzerland
+2019 All rights reserved.
+
+## Additional custom Disclaimer applying to all Products, Code, Software and Websites provided by HOOBS™
+
+By accessing this website, using our Products or use of any part of our code (software) you automatically 
+accept the terms and conditions in full. Do not continue to use HOOBS™ website, products or any part of 
+code (software) if you do not accept all of the terms and conditions stated in out terms and conditions 
+written in the Link below.
+
+Link to HOOBS™´s terms and conditions: [Link](https://support.hoobs.org/docs/5e858d770ab68b0344e872bc)
