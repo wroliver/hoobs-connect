@@ -1,4 +1,7 @@
 $(function(){
+    const form = $("#connect-form");
+    const select = $("#ssid-select");
+
 	let networks = undefined;
 
 	function showHideEnterpriseSettings() {
@@ -9,31 +12,38 @@ $(function(){
 		} else {
 			$("#identity-group").hide();
 		}
-	}
-
-	$("#ssid-select").change(showHideEnterpriseSettings);
+    }
+    
+    select.formSelect();
+	select.change(showHideEnterpriseSettings);
 
 	$.get("/networks", (data) => {
 		if(data.length === 0){
 			$(".before-submit").hide();
 			$("#no-networks-message").removeClass("hidden");
 		} else {
-			networks = JSON.parse(data);
+            networks = JSON.parse(data);
 
-			$.each(networks, (index, value) => {
-				$("#ssid-select").append(
-					$("<option>").text(value.ssid).attr("value", value.ssid).attr("data-security", value.security)
-				);
+            const ssids = [];
+
+			$.each(networks, (_index, value) => {
+                if (ssids.indexOf(value.ssid) === -1) {
+                    select.append(
+                        $("<option>").text(value.ssid).attr("value", value.ssid).attr("data-security", value.security)
+                    );
+
+                    ssids.push(value.ssid);
+                }
 			});
 
-			jQuery.proxy(showHideEnterpriseSettings, $("#ssid-select"))();
+			jQuery.proxy(showHideEnterpriseSettings, select)();
 		}
 	});
 
-	$("#connect-form").submit((event) => {
+	form.submit((event) => {
 		event.preventDefault();
 
-		$.post("/connect", $("#connect-form").serialize(), () => {
+		$.post("/connect", form.serialize(), () => {
 			$(".before-submit").hide();
 			$("#submit-message").removeClass("hidden");
 		});

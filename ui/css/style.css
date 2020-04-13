@@ -38,12 +38,13 @@ body {
 }
 
 .button {
-    background: #fff;
+    background: #fff !important;
     color: #777 !important;
     text-decoration: none !important;
     font-size: 12pt;
     display: inline-block;
     border: 1px #e5e5e5 solid;
+    outline: none !important;
     border-radius: 3px;
     padding: 10px;
     cursor: pointer;
@@ -53,7 +54,7 @@ body {
 }
 
 .button-primary {
-    background: #feb400;
+    background: #feb400 !important;
     color: #fff !important;
     border: 1px #feb400 solid;
 }
@@ -66,78 +67,28 @@ body {
 
 .header {
     width: 100%;
-    height: 57px;
-    min-height: 57px;
-    max-height: 57px;
-    margin: 0 -10px;
-    padding: 0 20px 0 30px;
+    height: 7px;
+    min-height: 7px;
+    max-height: 7px;
     background: #feb400;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-between;
     user-select: none;
     z-index: 200;
-}
-
-.header .title {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    user-select: none;
-}
-
-.header .logo {
-    width: 27px;
-    height: 27px;
-    margin: 0 5px 0 0;
-    user-select: none;
-}
-
-.header .header-logo-svg {
-    fill: #fff;
-}
-
-.header h1 {
-    margin: 0;
-    padding: 0;
-    line-height: normal;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: normal;
-    cursor: default;
-    user-select: none;
-}
-
-.header .title-logo-text {
-    font-weight: bold;
-    font-family: "Montserrat Black", sans-serif;
-    font-size: 24px;
-    margin: 0 7px 0 0;
 }
 
 .layout {
     flex: 1;
     display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 0 0 10% 0;
-    background: #feb400;
-    /* background: url(../img/snapshot.jpg) no-repeat center center fixed; */
-    /* background-size: cover; */
+    padding: 0;
+    background: #fff;
 }
 
 .container {
     padding: 0 20px;
     font-size: 12pt;
     width: 100%;
-    max-width: 460px;
+    max-width: 800px;
     background: #fff;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
-                0 2px 1px -1px rgba(0, 0, 0, 0.12),
-                0 1px 3px 0 rgba(0, 0, 0, 0.2);
     margin: 0 auto;
-    border-radius: 3px;
     box-sizing: border-box;
 }
 
@@ -149,41 +100,8 @@ body {
     color: #feb400;
 }
 
-.field {
-    display: flex;
-    flex-direction: column;
-    padding: 0 0 20px 0;
-}
-
-.field .title {
-    font-weight: bold;
-}
-
-.field input {
-    flex: 1;
-    padding: 7px;
-    font-size: 14px;
-    background: #fff;
-    color: #000;
-    border: 1px #e5e5e5 solid;
-    border-radius: 5px;
-}
-
-.field select {
-    padding: 7px;
-    flex: unset;
-    font-size: 14px;
-    height: 33px !important;
-    background: #fff;
-    color: #000;
-    border: 1px #e5e5e5 solid;
-    border-radius: 5px;
-}
-
-.field input:focus,
-.field select:focus {
-    outline: 0 none;
-    border-color: #feb400;
+.input-field {
+    margin-bottom: 20px !important;
 }
 
 .action {
@@ -192,24 +110,17 @@ body {
     justify-content: flex-end;
 }
 
+#connect-form {
+    padding: 20px 20px 0 20px;
+    margin: 20px 0;
+    border: 1px #e5e5e5 solid;
+    border-radius: 3px;
+}
+
 @media (min-width: 300px) and (max-width: 815px) {
-    .layout {
-        align-content: unset;
-        align-items: unset;
+    #connect-form {
         padding: 0;
-        background: #fff;
-    }
-
-    .header {
-        box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2),
-                    0 4px 5px 0 rgba(0, 0, 0, 0.14),
-                    0 1px 10px 0 rgba(0, 0, 0, 0.12);
-    }
-
-    .container {
-        width: 100%;
-        max-width: unset;
-        box-shadow: unset;
-        border-radius: unset;
+        border: 0 none;
+        border-radius: 0;
     }
 }
