@@ -26,7 +26,7 @@ $(function(){
             const ssids = [];
 
             $.each(networks, (_index, value) => {
-                if (ssids.indexOf(value.ssid) === -1) {
+                if (value.ssid && value.ssid !== "" && ssids.indexOf(value.ssid) === -1) {
                     select.append(
                         $("<option>").text(value.ssid).attr("value", value.ssid).attr("data-security", value.security)
                     );
